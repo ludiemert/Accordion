@@ -3,12 +3,12 @@ import { useState } from "react";
 const Accordion = ({ title, answer, photo }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
   return (
-    <div className="py-2">
+    <div className="py-4">
       {photo && <img src={photo} alt="Accordion" className="w-20 h-auto" />}
 
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between
+        className="flex justify-items-start
         w-full"
       >
         <span> {title}</span>
@@ -42,7 +42,7 @@ const Accordion = ({ title, answer, photo }) => {
       </button>
 
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-base-font-warning-500 text-sm ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-01fr] opacity-0"

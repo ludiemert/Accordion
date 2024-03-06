@@ -35,7 +35,7 @@ const Description = () => {
   };
 
   return (
-    <div className=" py-60 max-w-[800px] h-[1480px] w-full   relative group lg:ml-40 ">
+    <div className=" py-60 h-[1480px] w-9/12  relative  lg:ml-40 group ">
       <div
         className="  w-full h-full  rounded-2xl bg-center bg-cover duration-500"
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
