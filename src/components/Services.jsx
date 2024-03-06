@@ -1,13 +1,15 @@
 import { ArrowRight } from "lucide-react";
 
 import Accordion from "./Accordion";
+import Palett from "./Palett";
 
 const Services = () => {
 
   return (
     <div className=" p-4 w-52 h-auto bg-base-button rounded-lg ">
       <div className="">
-        <img src="../assets/2.png" alt="AudioVisual" className="mx-auto" />
+        <Palett />
+        <img src="./src/assets/2.png" alt="AudioVisual" className="mx-auto" />
 
         <a
           href="https://beabstracto.web.app/#services"
@@ -31,7 +33,7 @@ const Services = () => {
       </div>
 
       <div className="">
-        <img src="/src/assets/1.jpg" alt="Marketing" className="mx-auto" />
+        <img src="./src/assets/1.jpg" alt="Marketing" className="mx-auto" />
 
         <a
           href="https://beabstracto.web.app/#services"
