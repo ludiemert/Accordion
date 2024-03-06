@@ -275,7 +275,13 @@ const Logoemp = () => {
         <h1 className="mt-2 mb-2  text-1xl font-bold text-base-brand-primary-600  lg:text-2xl ">
           E o que a gente faz?{" "}
         </h1>
+
+        <a href="https://beabstracto.web.app/#services" target="_blank">
+        <img src={Logo} className="logo react" alt="React logo" />
+      </a>
       </div>
+
+      
      
 
       <a href="https://beabstracto.web.app/#services" target="_blank">
