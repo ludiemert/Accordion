@@ -1,15 +1,16 @@
 import { ArrowRight } from "lucide-react";
 
 import Accordion from "./Accordion";
-import Palett from "./Palett";
+
+import image2 from "../assets/2.png";
+import image3 from "../assets/3.png";
+import image1 from "../assets/1.jpg";
 
 const Services = () => {
-
   return (
     <div className=" p-4 w-52 h-auto bg-base-button rounded-lg ">
       <div className="">
-        <Palett />
-        <img src="./src/assets/2.png" alt="AudioVisual" className="mx-auto" />
+        <img src={image2} alt="AudioVisual" className="mx-auto" />
 
         <a
           href="https://beabstracto.web.app/#services"
@@ -33,7 +34,7 @@ const Services = () => {
       </div>
 
       <div className="">
-        <img src="./src/assets/1.jpg" alt="Marketing" className="mx-auto" />
+        <img src={image1} alt="Marketing" className="mx-auto" />
 
         <a
           href="https://beabstracto.web.app/#services"
@@ -56,8 +57,7 @@ const Services = () => {
       </div>
 
       <div className="">
-        <img src="/src/assets/3.png" alt="Tecnologia" className="mx-auto" />
-
+        <img src={image3} alt="Tecnologia" className="mx-auto" />
         <a
           href="https://beabstracto.web.app/#services"
           target="_blank"
