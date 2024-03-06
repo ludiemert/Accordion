@@ -3,10 +3,11 @@ import { ArrowRight } from "lucide-react";
 import Accordion from "./Accordion";
 
 const Services = () => {
+
   return (
     <div className=" p-4 w-52 h-auto bg-base-button rounded-lg ">
       <div className="">
-        <img src="/src/assets/2.png" alt="AudioVisual" className="mx-auto" />
+        <img src="../assets/2.png" alt="AudioVisual" className="mx-auto" />
 
         <a
           href="https://beabstracto.web.app/#services"
