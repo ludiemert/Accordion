@@ -5,34 +5,23 @@
 ## Documentation # Tailwindcss And  Nextjs
 
 * For full documentation, visit [tailwindcss.com](https://tailwindcss.com/).<br>
-* For full documentation, visit [nextjs](https://nextjs.org/docs/).<br>
+* For full documentation, visit [Vitejs](https://vitejs.dev/).<br>
 * For full documentation, visit [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).<br>
 * For full documentation, visit [reactjs](https://pt-br.legacy.reactjs.org/docs/getting-started.html).<br>
 
 ------
 
-### About
-* This project presents a modern and elegant website, designed to offer an exceptional user experience on any device. 
-* Combining responsive design with visually appealing carousel effects and intuitive 
-content organization through grid and flex layouts, the site stands out for its ease of navigation and enhanced
-aesthetics. 
-
-* The stylized buttons and Navbar contribute to smooth interaction, ensuring that users find what they need with ease.
-* This project is a shining example of how modern web technologies can be combined to create engaging digital experiences.
-
-
 ## Technologies Used
 
 * React.js: Used to build a dynamic user interface with reusable components, facilitating project maintenance and scalability.
+
+*  Vite: Empregado para a compilação e o hot-reload durante o desenvolvimento.
   
-* Next.js: Used to enhance the user experience through fast, optimized web pages, taking advantage of features such
-  as server-side rendering and static site generation.
-  
-* Tailwind CSS: Adopted to speed up front-end development, allowing efficient and responsive design customization
-  directly in the markup, without the need to leave the HTML context.
-  
-*  TypeScript: Used to add an extra layer of security to development through static typing, improving code quality
-   and reducing the likelihood of errors.
+* Tailwind CSS: Adopted to speed up front-end development, allowing efficient and responsive design customization directly in the markup, without the need to leave the HTML context.
+
+* Lucide-react: Biblioteca de ícones como componentes React para serem usados no Vite.
+* React Icons: Utilizado para adicionar ícones animados aos componentes de descrição.
+
 
 
 ## Featured Resources
@@ -41,8 +30,7 @@ aesthetics.
 * Carousel effects: Implementation of a dynamic carousel to highlight key elements, improving visual engagement.
 * Grid and Flex Layout: Intelligent use of grid and flexbox for an aesthetic and functional content layout,
   optimizing the user experience.
-* Stylized Buttons and Navbar: Customized design of buttons and navigation bar to complement the site's visual
-  identity and facilitate navigation.
+* Stylized Buttons and Navbar: Customized design of buttons and navigation bar to complement the site's visual identity and facilitate navigation.
 * Sustainable Development: Adoption of TypeScript to improve the reliability and maintainability of the code,
    preparing the project for the future.
 
@@ -55,20 +43,14 @@ aesthetics.
 - npm install<br>
 - npm run dev<br>
 
-
-<h2 align="center"> 💻 Project</h2>
-<div align="center">
- <img src="./src/img/proj.png" width="400px" alt="Home Image"/>
-</div>
-
 -------
 
 ## 🔖 Project on air
-You can visualize the project on air [link](https://reactjstailwindcss.netlify.app/  )
+You can visualize the project on air [link](https://acdon.netlify.app/ )
 
 
 ## 🔖 Git Clone
-You can visualize the project [link]( https://github.com/ludiemert/react-tailwindcss.git )
+You can visualize the project [link]( https://ludiemert.github.io/accord/ )
 
 
 ---
@@ -77,6 +59,36 @@ You can visualize the project [link]( https://github.com/ludiemert/react-tailwin
 
 * Contributions are welcome! If you have suggestions for improving the project or want to report bugs, 
 feel free to open an issue or send a pull request.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ---
 
